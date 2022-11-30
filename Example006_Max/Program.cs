@@ -1,0 +1,11 @@
+﻿int a = 22;
+int b = 2;
+int c = 4;
+int d = 8;
+int e = 111;
+int max = a;
+if (max < b) max = b;
+if (max < c) max = c;
+if (max < d) max = d;
+if (max < e) max = e;
+Console.WriteLine(max);
